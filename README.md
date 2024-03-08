@@ -13,7 +13,7 @@ The project is divided into three main components, each with its dedicated READM
     - This section details the creation of a chatbot powered by WatsonX.ai. 
     - You'll utilize a simple vector database to store question-answer pairs.
     - The standard Retriever-Augmented Generation (RAG) technique retrieves the most relevant answer for a given question.
-    - Reinforcement learning is implemented to continuously improve the model's performance through updates (frequency mentioned in the [assistant/](./assistant/README.md)).
+    - Reinforcement learning is implemented to continuously improve the model's performance through updates (frequency mentioned in the [assistant/README.md](./assistant/README.md)).
 
 2. **AI Microservices ([microservices/](./microservices/README.md))**
    - This section describes the integration of various IBM Cloud microservices:
