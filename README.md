@@ -36,7 +36,7 @@ Detailed instructions for building and running the project, including setting up
 2. **Flagged Conversation Analysis:** Review flagged conversations (conversations identified as needing human intervention) to identify recurring issues and improve the assistant's handling of similar situations. 
 3. **Refined Reinforcement Learning:** Explore more advanced reinforcement learning techniques and adjust the model update frequency based on observed performance to optimize the learning process.
 ## Infrastructure Diagram [diagram/](./assets/diagram.md)
-![](assets/2024-03-08-11-05-25.png)
+[![](assets/2024-03-08-11-05-25.png)](./assets/diagram.md)
 
 The system utilizes a layered architecture.  WatsonX.ai provides the core AI functionalities. Users initiate phone calls, which are converted to text and sent to the virtual assistant for processing. The assistant retrieves answers, converts them to speech, and relays them back to the user through the phone call. A separate service facilitates these phone calls. Additionally, the assistant sends data for analysis to a monitoring dashboard that provides insights for continuous improvement.
 
